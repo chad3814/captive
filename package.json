@@ -2,7 +2,13 @@
   "name": "captive",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
-    "@types/node": "^20"
+    "@types/node": "^20",
+    "typescript": "^5.5.4"
   }
 }
